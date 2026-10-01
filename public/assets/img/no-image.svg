@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e9edf2"/>
+  <g fill="none" stroke="#b7c0cc" stroke-width="2">
+    <rect x="40" y="40" width="320" height="220" rx="8"/>
+    <path d="M40 220 L150 130 L220 190 L270 140 L360 220" />
+    <circle cx="130" cy="90" r="18"/>
+  </g>
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="14" fill="#98a2b3" text-anchor="middle">Foto belum tersedia</text>
+</svg>

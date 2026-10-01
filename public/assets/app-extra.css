@@ -1,0 +1,49 @@
+/* Small additions for the Laravel/CMS conversion — kept separate from the
+   original style.css so the original file stays untouched and diff-able. */
+
+.alert-box {
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+.alert-box.success {
+    background: #e6f7ec;
+    color: #1a7f42;
+    border: 1px solid #b6e8c8;
+}
+.alert-box.error {
+    background: #fdeceb;
+    color: #b3261e;
+    border: 1px solid #f5c2bd;
+}
+.empty-state {
+    padding: 32px;
+    text-align: center;
+    color: #8a94a6;
+    width: 100%;
+}
+.pagination-wrapper {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.pagination-wrapper nav {
+    width: 100%;
+    max-width: 520px;
+}
+.section-action {
+    text-align: center;
+    margin-top: 28px;
+}
+.alumni-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.06);
+    min-width: 280px;
+    margin-right: 18px;
+}
+.alumni-card p { font-style: italic; margin-bottom: 12px; }
+.alumni-card strong { display: block; }
+.alumni-card span { font-size: .85rem; color: #8a94a6; }
